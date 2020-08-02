@@ -102,7 +102,7 @@ svg{
 @media (max-width:1400px) and (min-width:993px) {
 
   svg{
-    width:550px;
+    width:500px;
   }
 
   .row h1{
@@ -116,11 +116,19 @@ svg{
 @media (max-width:992px) {
 
   svg{
-    width:650px;
+    width:500px;
   }
 
   .right-part{
     margin-top: 8%;
   }
+
+  #header{
+    text-align: center;
+  }
+
+   .btn-margin{
+     margin: 5% auto;
+   }
 
 }
