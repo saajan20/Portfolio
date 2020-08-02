@@ -1,0 +1,126 @@
+body{
+
+  font-family: 'Montserrat';
+  background-color: #ffeeee;
+
+}
+
+#header{
+  text-align: left;
+}
+
+.container-fluid{
+  padding: 1% 6%;
+}
+
+.left-part{
+  padding-top: 4%;
+}
+
+svg{
+  width: 700px;
+}
+.navbar{
+
+  padding: 0 0 5rem;
+
+}
+.navbar-brand{
+ font-family: 'Marck Script', cursive;
+ font-size: 3rem;
+}
+
+.nav-item{
+
+  padding: 0 1.2rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+
+}
+
+.row h1{
+  font-weight: 700;
+
+}
+
+.greeting{
+  font-size: 3.2em;
+}
+.name{
+  color: #F50057;
+}
+
+.btn-margin{
+  margin: 5% 3% 5% 0;
+  display: block;
+}
+
+
+
+.cd-words-wrapper {
+  display: inline-block;
+  position: relative;
+  text-align: left;
+}
+.cd-words-wrapper b {
+  display: inline-block;
+  position: absolute;
+  white-space: nowrap;
+  left: 0;
+  top: 0;
+}
+.cd-words-wrapper b.is-visible {
+  position: relative;
+  color:#903749;
+}
+
+.cd-headline.clip span {
+  display: inline-block;
+  padding: .2em 0;
+}
+.cd-headline.clip .cd-words-wrapper {
+  overflow: hidden;
+  vertical-align: top;
+}
+.cd-headline.clip .cd-words-wrapper::after {
+  /* line */
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 2px;
+  height: 100%;
+  background-color: #212529;
+}
+.cd-headline.clip b {
+  opacity: 0;
+}
+.cd-headline.clip b.is-visible {
+  opacity: 1;
+}
+
+@media (max-width:1400px) and (min-width:993px) {
+
+  svg{
+    width:550px;
+  }
+
+  .row h1{
+        font-size: 2rem;
+  }
+
+  .row h1.greeting{
+    font-size: 2.7rem;
+  }
+}
+@media (max-width:992px) {
+
+  svg{
+    width:650px;
+  }
+
+  .right-part{
+    margin-top: 8%;
+  }
+
+}
