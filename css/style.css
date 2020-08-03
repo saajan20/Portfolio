@@ -63,6 +63,7 @@ svg{
   position: relative;
   text-align: left;
 }
+
 .cd-words-wrapper b {
   display: inline-block;
   position: absolute;
@@ -70,6 +71,7 @@ svg{
   left: 0;
   top: 0;
 }
+
 .cd-words-wrapper b.is-visible {
   position: relative;
   color:#903749;
@@ -153,6 +155,9 @@ svg{
     width:400px;
   }
 
+  .padding-top{
+
+  }
   .row h1{
         font-size: 1.7rem;
   }
@@ -161,12 +166,16 @@ svg{
     font-size: 2.3rem;
   }
 
-h2{
-  font-size: 1.5rem;
-}
+  h2{
+    font-size: 1.5rem;
+  }
 
-.project-btn{
-  font-size: 1rem;
-}
+  .project-btn{
+    font-size: 1rem;
+  }
+
+  .left-part{
+    padding-top: 2%;
+  }
 
 }
