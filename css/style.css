@@ -17,9 +17,13 @@ body{
   padding-top: 4%;
 }
 
-svg{
-  width: 700px;
+.right-part {
+
+    border: 10px solid #ffeeee;
+
+
 }
+
 .navbar{
 
   padding: 0 0 5rem;
@@ -104,9 +108,7 @@ svg{
 
 @media (min-width:1201px) and (max-width:1400px) {
 
-  svg{
-    width:600px;
-  }
+
 
   .row h1{
         font-size: 2rem;
@@ -131,9 +133,6 @@ svg{
 
   }
 
-  svg{
-    width:500px;
-  }
 
   .row h1{
         font-size: 2rem;
@@ -149,15 +148,48 @@ svg{
 
 
 }
-@media (max-width:991px) {
+@media (min-width:768px) and (max-width:991px) {
 
-  svg{
-    width:400px;
+
+  .row h1{
+        font-size: 1.7rem;
   }
 
-  .padding-top{
-
+  .row h1.greeting{
+    font-size: 2.3rem;
   }
+
+  h2{
+    font-size: 1.5rem;
+  }
+
+  .project-btn{
+    font-size: 1rem;
+  }
+
+  .left-part{
+    padding-top: 2%;
+  }
+
+}
+
+@media (max-width:767px) {
+
+  #header{
+    text-align: center;
+  }
+
+  .project-btn{
+    margin: 5% auto;
+  }
+
+  .right-part{
+    padding-top: 10%;
+  }
+}
+
+@media (max-width:550px) {
+
   .row h1{
         font-size: 1.7rem;
   }
