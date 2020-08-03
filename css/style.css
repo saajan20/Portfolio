@@ -25,6 +25,7 @@ svg{
   padding: 0 0 5rem;
 
 }
+
 .navbar-brand{
  font-family: 'Marck Script', cursive;
  font-size: 3rem;
@@ -33,7 +34,7 @@ svg{
 .nav-item{
 
   padding: 0 1.2rem;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   font-weight: bold;
 
 }
@@ -99,10 +100,10 @@ svg{
   opacity: 1;
 }
 
-@media (max-width:1400px) and (min-width:993px) {
+@media (min-width:1201px) and (max-width:1400px) {
 
   svg{
-    width:500px;
+    width:600px;
   }
 
   .row h1{
@@ -113,22 +114,59 @@ svg{
     font-size: 2.7rem;
   }
 }
-@media (max-width:992px) {
+
+@media (min-width:992px) and (max-width:1200px) {
+
+
+  .navbar-brand{
+   font-size: 2.7rem;
+  }
+
+  .nav-item{
+
+    font-size: 1.2rem;
+    font-weight: bold;
+
+  }
 
   svg{
     width:500px;
   }
 
-  .right-part{
-    margin-top: 8%;
+  .row h1{
+        font-size: 2rem;
   }
 
-  #header{
-    text-align: center;
+  .row h1.greeting{
+    font-size: 2.5rem;
   }
 
-   .btn-margin{
-     margin: 5% auto;
-   }
+  .container-fluid{
+    padding: 1% 4%;
+  }
+
+
+}
+@media (max-width:991px) {
+
+  svg{
+    width:400px;
+  }
+
+  .row h1{
+        font-size: 1.7rem;
+  }
+
+  .row h1.greeting{
+    font-size: 2.3rem;
+  }
+
+h2{
+  font-size: 1.5rem;
+}
+
+.project-btn{
+  font-size: 1rem;
+}
 
 }
