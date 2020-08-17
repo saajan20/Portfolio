@@ -1,8 +1,6 @@
 body{
-
   font-family: 'Montserrat';
   background-color: #ffeeee;
-
 }
 
 #header{
@@ -22,30 +20,37 @@ body{
 }
 
 .navbar{
-  padding: 0 0 5rem;
+  padding: 0 0 5% 0;
 }
+
 
 .navbar-brand{
  font-family: 'Marck Script', cursive;
- font-size: 3rem;
+ font-size: 3.2vw;
 }
 
 .nav-item{
-
-  padding: 0 1.2rem;
-  font-size: 1.4rem;
+  padding: 0 1.4em;
+  font-size: 1.4vw;
   font-weight: bold;
-
 }
 
-.row h1{
+.left-part h1{
   font-weight: 700;
-
 }
 
 .greeting{
-  font-size: 3.2rem;
+  font-size: 4vw;
 }
+
+.name-line{
+  font-size: 3vw;
+}
+
+.profession{
+  font-size: 2.5vw;
+}
+
 .name{
   color: #F50057;
 }
@@ -55,7 +60,9 @@ body{
   display: block;
 }
 
-
+.project-btn{
+  font-size: 1.25vw;
+}
 
 .cd-words-wrapper {
   display: inline-block;
@@ -101,70 +108,6 @@ body{
   opacity: 1;
 }
 
-@media (min-width:1201px) and (max-width:1400px) {
-
-
-  .row h1{
-        font-size: 2rem;
-  }
-
-  .row h1.greeting{
-    font-size: 2.7rem;
-  }
-}
-
-@media (min-width:992px) and (max-width:1200px) {
-
-
-
-
-  .nav-item{
-
-    font-size: 1.2rem;
-    font-weight: bold;
-
-  }
-
-
-  .row h1{
-        font-size: 2rem;
-  }
-
-  .row h1.greeting{
-    font-size: 2.5rem;
-  }
-
-  .container-fluid{
-    padding: 1% 4%;
-  }
-
-
-}
-@media (min-width:768px) and (max-width:991px) {
-
-
-  .row h1{
-        font-size: 1.5rem;
-  }
-
-  .row h1.greeting{
-    font-size: 2.3rem;
-  }
-
-  h2{
-    font-size: 1.4rem;
-  }
-
-  .project-btn{
-    font-size: 1rem;
-  }
-
-  .left-part{
-    padding-top: 2%;
-  }
-
-}
-
 @media (max-width:767px) {
 
   #header{
@@ -178,37 +121,30 @@ body{
   .right-part{
     padding-top: 10%;
   }
-}
-
-@media (max-width:550px) {
-
-  .navbar{
-    padding: 0 0 2rem;
-  }
 
   .navbar-brand{
-   font-family: 'Marck Script', cursive;
-   font-size: 2rem;
+    font-size: 6.4vw;
   }
 
-  .row h1{
-        font-size: 1.7rem;
+  .nav-item{
+    font-size: 2.8vw;
   }
 
-  .row h1.greeting{
-    font-size: 2.3rem;
+  .greeting{
+    font-size: 8vw;
   }
 
-  h2{
-    font-size: 1.5rem;
+  .name-line{
+    font-size: 6vw;
   }
 
-  .project-btn{
-    font-size: 1rem;
+  .profession{
+   font-size: 5vw;
   }
 
-  .left-part{
-    padding-top: 2%;
-  }
+ .project-btn{
+   font-size: 3vw;
+ }
+
 
 }
