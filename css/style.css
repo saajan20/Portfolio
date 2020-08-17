@@ -18,16 +18,11 @@ body{
 }
 
 .right-part {
-
     border: 10px solid #ffeeee;
-
-
 }
 
 .navbar{
-
   padding: 0 0 5rem;
-
 }
 
 .navbar-brand{
@@ -49,7 +44,7 @@ body{
 }
 
 .greeting{
-  font-size: 3.2em;
+  font-size: 3.2rem;
 }
 .name{
   color: #F50057;
@@ -109,7 +104,6 @@ body{
 @media (min-width:1201px) and (max-width:1400px) {
 
 
-
   .row h1{
         font-size: 2rem;
   }
@@ -122,9 +116,7 @@ body{
 @media (min-width:992px) and (max-width:1200px) {
 
 
-  .navbar-brand{
-   font-size: 2.7rem;
-  }
+
 
   .nav-item{
 
@@ -152,7 +144,7 @@ body{
 
 
   .row h1{
-        font-size: 1.7rem;
+        font-size: 1.5rem;
   }
 
   .row h1.greeting{
@@ -160,7 +152,7 @@ body{
   }
 
   h2{
-    font-size: 1.5rem;
+    font-size: 1.4rem;
   }
 
   .project-btn{
@@ -189,6 +181,15 @@ body{
 }
 
 @media (max-width:550px) {
+
+  .navbar{
+    padding: 0 0 2rem;
+  }
+
+  .navbar-brand{
+   font-family: 'Marck Script', cursive;
+   font-size: 2rem;
+  }
 
   .row h1{
         font-size: 1.7rem;
